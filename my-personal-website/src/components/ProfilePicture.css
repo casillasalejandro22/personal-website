@@ -9,8 +9,8 @@
   
   /* Styles for the profile picture image */
   .profile-picture img {
-    width: 150px;
-    height: 150px;
+    width: 250px; /* Increase the width */
+    height: 250px; /* Increase the height */
     border-radius: 50%;
   }
   

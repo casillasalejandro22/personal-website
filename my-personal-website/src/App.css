@@ -5,15 +5,19 @@
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  background-color: #3d1111; /* Match the background color of the introduction section (272f47 a good color)*/
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* Styles for the main content area */
 .main-content {
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
+  justify-content: space-around; /* Distribute space around items */
   align-items: center;
   flex-grow: 1;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  margin-top: -250px; /* Adjust the value as needed to move the content up */
 }

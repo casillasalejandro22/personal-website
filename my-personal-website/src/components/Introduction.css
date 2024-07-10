@@ -1,0 +1,34 @@
+/* Styles for the introduction container */
+.introduction {
+    text-align: left;
+    color: white;
+    padding: 50px;
+    background-color: #3d1111;
+    flex-basis: 50%; /* Ensure it takes 1/2 of the space */
+  }
+  
+  /* Styles for the main heading */
+  .introduction h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the highlighted name */
+  .introduction .name-highlight {
+    color: #db8400;
+  }
+  
+  /* Styles for the subheading */
+  .introduction h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the paragraph */
+  .introduction p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  

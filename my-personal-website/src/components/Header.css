@@ -11,7 +11,7 @@
   /* Styles for the resume button */
   .resume-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #3d1111;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -26,7 +26,7 @@
   
   /* Styles for each social icon link */
   .social-icons a {
-    color: #000;
+    color: #3d1111;
   }
   
   /* Add padding to the left of the first icon */

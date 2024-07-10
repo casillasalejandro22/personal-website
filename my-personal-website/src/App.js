@@ -1,19 +1,17 @@
 import React from 'react';
 import Header from './components/Header';
 import ProfilePicture from './components/ProfilePicture';
+import Introduction from './components/Introduction';
 import './App.css';
 
+// Main App component that includes Header, ProfilePicture, and Introduction components
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="main-content">
         <ProfilePicture />
-        {/* Placeholder for future text content */}
-        <div style={{ flexBasis: '66.67%', padding: '20px' }}>
-          <h1>Hello, I'm Alejandro Casillas</h1>
-          <p>blah blah blah</p>
-        </div>
+        <Introduction />
       </div>
     </div>
   );
