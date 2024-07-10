@@ -1,0 +1,36 @@
+/* Styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    width: 100%;
+  }
+  
+  /* Styles for the resume button */
+  .resume-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add margin to the right of the resume button */
+  }
+  
+  /* Styles for the social icons container */
+  .social-icons {
+    display: flex;
+    gap: 20px; /* Use gap for spacing between icons */
+  }
+  
+  /* Styles for each social icon link */
+  .social-icons a {
+    color: #000;
+  }
+  
+  /* Add padding to the left of the first icon */
+  .social-icons a:first-child {
+    padding-left: 20px; /* Adjust the value as needed */
+  }
+  

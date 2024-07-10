@@ -1,0 +1,16 @@
+/* Styles for the profile picture container */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-basis: 33.33%; /* Ensure it takes 1/3rd of the space */
+  }
+  
+  /* Styles for the profile picture image */
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  

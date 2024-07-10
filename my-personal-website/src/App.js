@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import ProfilePicture from './components/ProfilePicture';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="main-content">
+        <ProfilePicture />
+        {/* Placeholder for future text content */}
+        <div style={{ flexBasis: '66.67%', padding: '20px' }}>
+          <h1>Hello, I'm Alejandro Casillas</h1>
+          <p>blah blah blah</p>
+        </div>
+      </div>
     </div>
   );
 }
